@@ -1,2 +1,7 @@
-# Git Practice
-A simple project to practice a few git/github workflows.  Replace the contents of this file with the contents indicated in the [instructions](./instructions.md).
+# [MongoDB vs MySQL: A Comparative Study on Databases](https://www.simform.com/blog/mongodb-vs-mysql-databases/)
+
+Since I only used MySQL before and now we are going to use MongoDB for the project, I wanted to know how they differ and why MongoDB is prefered for our circumstance. This article highlights the differences of MongoDB and MyQL from the perspecitives of performance, schema flexibility, relationships, and security.
+
+The most evident difference is how the two databases store information. MySQL one of the most popular relational databases. This means that to store any data, the client must clearly define tables and columns. Cells of each column can only store one type of data. If one row of data needs additional attribute, the who schema needs to be modified, offering little flexibility. On the other hand, MongoDB is one of the most popular document-oriented databases. It stores data as a collection of documents, enforcing no schema. This makes data storage rather flexible and quick to adpat changes. However, it also means that data stored may not be consistent, possibly leading to more work of maintenance on the user end.
+
+This is the most striking difference that I want to highlight here, but there are a whole lot more going on. And it can be very interesting to examine why MongoDB is taking over these days for the features it provide.
